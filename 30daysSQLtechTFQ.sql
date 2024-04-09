@@ -59,6 +59,38 @@ from cte
 order by id desc
 limit 1
 -----------------------------------------------------------------------------------
+--- VIDEO_Q4 ---
+
+/* Problem Statement:
+segregate the values and give me two results:
+1. with min id and non null name and location
+2. with max id and non null name and location
+*/
+-- Approach 1:
+select coalesce(min(id)) as id,
+	   coalesce(min(name)) as name,
+	   coalesce(min(location)) as location 
+from q4_data
+
+select coalesce(max(id)) as id,
+	   coalesce(min(name)) as name,
+	   coalesce(min(location)) as location 
+from q4_data
+
+-- Approach 2:
+
+-- OUTPUT 1
+select min(id) as id
+, min(name) as name
+, min(location) as location
+from Q4_data;
+
+-- OUTPUT 2
+select max(id) as id
+, min(name) as name
+, min(location) as location
+from Q4_data;
+-----------------------------------------------------------------------------------
 --- VIDEO_Q17 ---
 -- PROBLEM STATEMENT:Find out the employees who attended all company events
 -- Solution 1:
