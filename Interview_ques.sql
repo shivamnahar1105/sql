@@ -197,3 +197,63 @@ FROM
 WHERE
   status = 'down' AND end_updated_time - start_updated_time >INTERVAL '3 minutes';
 
+------------------------------------------------------------------
+-- # Ques4: From Activity table I want data as :
+/* 
++------------+-----------------+
+| machine_id | processing_time |
++------------+-----------------+
+|     0      |      0.894      |
+|     1      |      0.995      |
+|     2      |      1.456      |
++------------+-----------------+
+
+-- Create table
+CREATE TABLE activity (
+    machine_id INT,
+    process_id INT,
+    activity_type VARCHAR(10),
+    time_taken FLOAT
+);
+
+-- Insert data
+INSERT INTO activity (machine_id, process_id, activity_type, time_taken)
+VALUES
+(0, 0, 'Start', 0.712),
+(0, 0, 'End', 1.520),
+(0, 1, 'Start', 3.140),
+(0, 1, 'End', 4.120),
+(1, 0, 'Start', 0.550),
+(1, 0, 'End', 1.550),
+(1, 1, 'Start', 0.430),
+(1, 1, 'End', 1.420),
+(2, 0, 'Start', 4.100),
+(2, 0, 'End', 4.512),
+(2, 1, 'Start', 2.500),
+(2, 1, 'End', 5.000);
+*/
+-- Approach 1:
+
+
+select * from activity
+
+
+SELECT machine_id,
+       SUM(CASE WHEN activity_type = 'Start' THEN -time_taken ELSE time_taken END) / 2 AS processing_time
+from activity
+group by machine_id
+
+
+-- Approach 2:
+with cte as (
+
+	select machine_id, process_id,
+	activity_type,
+	case when activity_type = 'Start' then -time_taken else time_taken end as total_Time
+	from activity
+)
+	select machine_id, 
+	sum(total_time) / 2 as processing_time
+	from cte
+	group by machine_id
+
