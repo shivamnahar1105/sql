@@ -257,3 +257,46 @@ with cte as (
 	from cte
 	group by machine_id
 
+
+-- # Que:
+
++--------------+---------------------+--------+
+| service_name | updated_time  | status |
++--------------+---------------------+--------+
+| hdfs   | 2024-03-06 10:00:00 | up  |
+| hdfs   | 2024-03-06 10:01:00 | up  |
+| hdfs   | 2024-03-06 10:02:00 | down |
+| hdfs   | 2024-03-06 10:03:00 | down |
+| hdfs   | 2024-03-06 10:04:00 | down |
+| hdfs   | 2024-03-06 10:05:00 | down |
+| hdfs   | 2024-03-06 10:06:00 | down |
+| hdfs   | 2024-03-06 10:07:00 | up  |
+| hdfs   | 2024-03-06 10:08:00 | up  |
+| hdfs   | 2024-03-06 10:09:00 | down |
+| hdfs   | 2024-03-06 10:10:00 | down |
+
+Problem: Find the start time and end time if the service stays down for more than 3 minutes.
+
++--------------+---------------------+---------------------+--------+
+| service_name | start_updated_time | end_updated_time | status |
++--------------+---------------------+---------------------+--------+
+| hdfs   | 2024-03-06 10:02:00 | 2024-03-06 10:06:00 | down |
++--------------+---------------------+---------------------+--------+
+
+-- Approach:
+
+with cte as (
+select *, lag(status) over(order by updated_time) as prev_status from service_status2
+ ),
+cte2 as (select *, 
+sum
+ (
+ case when status='down' and prev_status='up' then 1 
+ when status='up' and prev_status='down' then 1 else 0 end
+ ) over(order by updated_time) 
+ as group_key from cte),
+cte3 as 
+(
+select service_name,min(status) as service_status ,min(updated_time) as start_updated_time,max(updated_time) as end_updated_time 
+from cte2 group by group_key,service_name )
+select service_name,service_status,start_updated_time,end_updated_time from cte3 where DATEDIFF(mi,start_updated_time,end_updated_time)>=3;
