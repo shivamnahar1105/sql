@@ -300,3 +300,58 @@ cte3 as
 select service_name,min(status) as service_status ,min(updated_time) as start_updated_time,max(updated_time) as end_updated_time 
 from cte2 group by group_key,service_name )
 select service_name,service_status,start_updated_time,end_updated_time from cte3 where DATEDIFF(mi,start_updated_time,end_updated_time)>=3;
+
+
+
+------------------------------------------------------------------
+-- # Ques: SQL - Different persons  in hierarchy how do you find the top one hierarchy?
+CREATE TABLE Employees (
+    EmployeeID SERIAL PRIMARY KEY,
+    ManagerID INT REFERENCES Employees(EmployeeID) ON DELETE SET NULL,
+    EmployeeName VARCHAR(255) NOT NULL
+);
+INSERT INTO Employees (EmployeeID, ManagerID, EmployeeName) VALUES
+(1, NULL, 'Alice'),
+(2, 1, 'Bob'),
+(3, 1, 'Charlie'),
+(4, 2, 'David'),
+(5, 2, 'Eve'),
+(6, 3, 'Frank'),
+(7, 3, 'Grace');
+
+SELECT * FROM employees
+
+
+WITH RECURSIVE EmployeeHierarchy AS (
+    -- Anchor member: Start with the top-level managers (those without a manager)
+    SELECT
+        EmployeeID,
+        ManagerID,
+        EmployeeName,
+        CAST(EmployeeName AS VARCHAR(255)) AS HierarchyPath,
+        1 AS Level
+    FROM Employees
+    WHERE ManagerID IS NULL
+    
+    UNION ALL
+    
+    -- Recursive member: Join the CTE with the Employees table to get the subordinates
+    SELECT
+        e.EmployeeID,
+        e.ManagerID,
+        e.EmployeeName,
+        CAST(eh.HierarchyPath || ' -> ' || e.EmployeeName AS VARCHAR(255)) AS HierarchyPath,
+        eh.Level + 1 AS Level
+    FROM Employees e
+    INNER JOIN EmployeeHierarchy eh
+        ON e.ManagerID = eh.EmployeeID
+)
+-- Select the results from the CTE
+SELECT
+    EmployeeID,
+    ManagerID,
+    EmployeeName,
+    HierarchyPath,
+    Level
+FROM EmployeeHierarchy
+ORDER BY HierarchyPath;
