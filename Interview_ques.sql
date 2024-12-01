@@ -1,5 +1,16 @@
 -- # Ques1: From Product sales table I want data as :
 
+-- ProductID	ProductName	Region	SaleAmount
+-- 1	Product A	North	1000.00
+-- 2	Product B	North	1500.00
+-- 1	Product A	South	2000.00
+-- 3	Product C	South	1200.00
+-- 2	Product B	East	1800.00
+-- 3	Product C	East	1300.00
+-- 1	Product A	West	1700.00
+-- 2	Product B	West	1900.00
+ 
+
 -- | ProductID | ProductName | North | South | East | West |
 -- |-----------|-------------|-------|-------|------|------|
 -- | 1         | Product A   | 1000  | 2000  | NULL | 1700 |
