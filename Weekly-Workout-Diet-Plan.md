@@ -349,5 +349,3 @@
 ---
 
 **Last Updated:** November 28, 2025
-
-*This plan is designed for intermediate to advanced lifters. Consult a healthcare provider or registered dietitian before making significant dietary changes.*
