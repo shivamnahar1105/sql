@@ -1,0 +1,254 @@
+# WEEKLY WORKOUT TRACKER - GOOGLE SHEETS TEMPLATE
+## For: 69kg / 170cm Male (TDEE ~3200cal | Diet ~2150cal)
+
+---
+
+## HOW TO CREATE IN GOOGLE SHEETS (3 EASY STEPS)
+
+### STEP 1: Create New Google Sheet
+1. Go to **Google Drive** → **New** → **Google Sheets**
+2. Name it: "Workout Tracker - 69kg 170cm"
+3. Create 9 sheets with tabs at bottom
+
+### STEP 2: Copy Data Below Into Each Sheet
+See each day's template below and manually enter OR copy-paste
+
+### STEP 3: Format & Download
+- Make headers **bold**
+- Add borders to cells
+- Adjust column widths
+- Set to mobile-friendly view
+- Download as Excel or print
+
+---
+
+## SHEET 1: MONDAY - CHEST + TRICEPS + ABS
+
+| Exercise | Target Sets | Set 1 | Set 2 | Set 3 | Set 4 | Notes |
+|----------|-------------|-------|-------|-------|-------|-------|
+| INCLINE DB PRESS | 4 (12,10,8,12) | | | | | |
+| FLAT DB PRESS | 3 (10,8,12) | | | | | |
+| CABLE FLY | 3x15 | | | | | |
+| ROPE TRICEPS PUSHDOWN | 3x12 | | | | | |
+| OVERHEAD TRICEPS PUSHDOWN | 3x12 | | | | | |
+| DB PULLOVER | 2x12 | | | | | |
+| **PLANK** | 1 Min x2 | | | | | |
+| **HANGING KNEE RAISE** | 3x12 | | | | | |
+| **CARDIO: 30 Min Incline Walk/Cycling** | Status | | | | | |
+
+**Fields to fill after workout:**
+- Set 1-4: Format as "Reps x Weight" (e.g., "12 x 25kg")
+- Notes: Form quality, difficulty, energy level
+
+---
+
+## SHEET 2: TUESDAY - BACK, BICEPS, REAR DELTS, TRAPS
+
+| Exercise | Target Sets | Set 1 | Set 2 | Set 3 | Set 4 | Notes |
+|----------|-------------|-------|-------|-------|-------|-------|
+| LATS PULLDOWN | 4 (12,10,8,12) | | | | | |
+| SEATED CABLE ROW | 3x12 | | | | | |
+| CHEST SUPPORTED ROW | 3x10 | | | | | |
+| REAR DELT CABLE FLY | 3x15 | | | | | |
+| DB HAMMER CURL | 3x12 | | | | | |
+| BARBELL SHRUGS | 3x15 | | | | | |
+| FOREARM WRIST CURL | 2x20 | | | | | |
+| **CABLE CRUNCH** | 3x15 | | | | | |
+| **DEAD BUG** | 2x12 | | | | | |
+| **CARDIO: 30 Minutes** | Status | | | | | |
+
+---
+
+## SHEET 3: WEDNESDAY - SHOULDERS + TRAPS + ARMS + ABS
+
+| Exercise | Target Sets | Set 1 | Set 2 | Set 3 | Set 4 | Notes |
+|----------|-------------|-------|-------|-------|-------|-------|
+| MACHINE SHOULDER PRESS | 4 (12,10,8,12) | | | | | |
+| DB LATERAL RAISE | 3x15 | | | | | |
+| REAR DELT MACHINE | 3x15 | | | | | |
+| BARBELL BICEPS CURL | 3 (10,8,12) | | | | | |
+| ROPE TRICEPS PUSHDOWN | 3x12 | | | | | |
+| DB SHRUGS | 3x15 | | | | | |
+| **RUSSIAN TWISTS** | 2x30 Sec | | | | | |
+| **ABS WHEEL OR CRUNCHES** | 3x12 | | | | | |
+| **CARDIO: 30 Minutes** | Status | | | | | |
+
+---
+
+## SHEET 4: THURSDAY - LEGS (HIGH VOLUME)
+
+| Exercise | Target Sets | Set 1 | Set 2 | Set 3 | Set 4 | Notes |
+|----------|-------------|-------|-------|-------|-------|-------|
+| LEG PRESS | 4 (12,10,8,12) | | | | | Quads & Glutes |
+| SMITH SQUATS (Light-Moderate) | 3x10 | | | | | Quads + Glutes |
+| ROMANIAN DEADLIFT / DB RDL | 3x10 | | | | | Hamstrings & Glutes |
+| HAMSTRING CURL MACHINE | 3x12 | | | | | |
+| GLUTE BRIDGES | 3x12 | | | | | |
+| STANDING CALF RAISES | 4x15 | | | | | |
+| SEATED CALF RAISES | 3x15 | | | | | |
+| **HANGING KNEE RAISES** | 3x12 | | | | | |
+| **PLANK** | 1 Min x2 | | | | | |
+| **CARDIO: 30 Minutes** | Status | | | | | |
+
+---
+
+## SHEET 5: FRIDAY - CHEST + BACK (UPPER BODY PUMP) + ABS
+
+| Exercise | Target Sets | Set 1 | Set 2 | Set 3 | Set 4 | Notes |
+|----------|-------------|-------|-------|-------|-------|-------|
+| INCLINE MACHINE PRESS | 3 (12,10,12) | | | | | |
+| LATS PULLDOWN (CLOSE GRIP) | 3x12 | | | | | |
+| DB ROW | 3x10 | | | | | |
+| CABLE CHEST FLY | 3x15 | | | | | |
+| FACE PULL | 3x15 | | | | | |
+| **CABLE CRUNCHES** | 3x15 | | | | | |
+| **SIDE PLANK** | 30 Sec x2 | | | | | |
+| **CARDIO: 30 Minutes** | Status | | | | | |
+
+---
+
+## SHEET 6: SATURDAY - SHOULDERS + ARMS + TRAPS + REAR DELTS + FOREARMS + ABS
+
+| Exercise | Target Sets | Set 1 | Set 2 | Set 3 | Set 4 | Notes |
+|----------|-------------|-------|-------|-------|-------|-------|
+| SHOULDER DB PRESS | 3 (12,10,12) | | | | | |
+| LATERAL RAISE | 3x15 | | | | | |
+| REAR DELT FLY | 3x15 | | | | | |
+| BARBELL BICEPS CURL | 3x12 | | | | | |
+| ROPE TRICEPS EXTENSION | 3x12 | | | | | |
+| SHRUGS | 3x15 | | | | | |
+| FOREARM WRIST CURL | 2x20 | | | | | |
+| **ABS WHEEL** | 3x12 | | | | | |
+| **PLANK** | 1 Min x2 | | | | | |
+| **CARDIO: 30 Minutes** | Status | | | | | |
+
+---
+
+## SHEET 7: WEEKLY SUMMARY
+
+**Track every Sunday to review weekly progress**
+
+| Exercise Name | Week Max (kg) | Reps Achieved | RPE (1-10) | Progress Notes |
+|---------------|---------------|---------------|------------|-----------------|
+| INCLINE DB PRESS | | | | |
+| FLAT DB PRESS | | | | |
+| CABLE FLY | | | | |
+| ROPE TRICEPS PUSHDOWN | | | | |
+| OVERHEAD TRICEPS PUSHDOWN | | | | |
+| DB PULLOVER | | | | |
+| LATS PULLDOWN | | | | |
+| SEATED CABLE ROW | | | | |
+| CHEST SUPPORTED ROW | | | | |
+| REAR DELT CABLE FLY | | | | |
+| DB HAMMER CURL | | | | |
+| BARBELL SHRUGS | | | | |
+| FOREARM WRIST CURL | | | | |
+| MACHINE SHOULDER PRESS | | | | |
+| DB LATERAL RAISE | | | | |
+| REAR DELT MACHINE | | | | |
+| BARBELL BICEPS CURL | | | | |
+| DB SHRUGS | | | | |
+| LEG PRESS | | | | |
+| SMITH SQUATS | | | | |
+| ROMANIAN DEADLIFT / DB RDL | | | | |
+| HAMSTRING CURL MACHINE | | | | |
+| GLUTE BRIDGES | | | | |
+| STANDING CALF RAISES | | | | |
+| SEATED CALF RAISES | | | | |
+| INCLINE MACHINE PRESS | | | | |
+| LATS PULLDOWN (CLOSE GRIP) | | | | |
+| DB ROW | | | | |
+| CABLE CHEST FLY | | | | |
+| FACE PULL | | | | |
+| CABLE CRUNCHES | | | | |
+| SHOULDER DB PRESS | | | | |
+| LATERAL RAISE | | | | |
+| REAR DELT FLY | | | | |
+| ROPE TRICEPS EXTENSION | | | | |
+| ABS WHEEL | | | | |
+
+---
+
+## SHEET 8: MONTHLY PROGRESS
+
+**Track over 4 weeks to identify long-term trends**
+
+| Exercise Name | Week 1 Max | Week 2 Max | Week 3 Max | Week 4 Max | Monthly Notes |
+|---------------|-----------|-----------|-----------|-----------|---------------|
+| INCLINE DB PRESS | | | | | |
+| FLAT DB PRESS | | | | | |
+| CABLE FLY | | | | | |
+| [... repeat all 36 exercises ...] | | | | | |
+
+**Column Definitions:**
+- **Week 1-4 Max:** Heaviest weight lifted each week
+- **Monthly Notes:** Observations on overall progress
+
+---
+
+## SHEET 9: HOW TO USE
+
+### TRACKING FORMAT EXAMPLE
+```
+Exercise: INCLINE DB PRESS
+Date: 30/11/2025
+Target: 4 sets (12, 10, 8, 12)
+
+Set 1: 12 x 25kg ✓
+Set 2: 10 x 27.5kg ✓
+Set 3: 8 x 30kg ✓ (heaviest)
+Set 4: 12 x 25kg ✓
+
+Notes: Form solid, felt strong today, RPE 7/10
+```
+
+### DAILY WORKFLOW (Takes 2-3 min per exercise)
+1. After each set, immediately log: **Reps x Weight**
+2. Track "RIR" (Reps in Reserve) - how many more you could do
+3. At end of workout, add general notes
+4. Mark cardio as "Done" or "Skip"
+
+### WEEKLY WORKFLOW (Sunday, 15 min total)
+1. Review all 6 workout days
+2. For each exercise, identify the **heaviest weight** lifted
+3. Enter into "Weekly Summary" sheet
+4. Write 1-2 notes about challenges/wins
+
+### MONTHLY WORKFLOW (4 weeks)
+1. Track Week 1-4 max weights
+2. **Target:** Steady progression week-to-week
+3. **Indicator of good week:** +0.5-2.5kg or +1-2 reps vs previous week
+
+### IMPORTANT FOR YOU (69kg/170cm)
+- **Current TDEE:** ~3200-3300 cal
+- **Current Diet:** ~2150 cal
+- **Status:** ~1000 cal DEFICIT (Recomposition mode)
+- **For pure muscle gain:** Increase diet to 2500-2650 cal (+300-500)
+- **Add:** Extra 50-75g carbs + 0.5 scoop protein daily
+
+### PROGRESSIVE OVERLOAD STRATEGY
+**Week 1-2:** Establish baseline - use this data as reference  
+**Week 3-4:** Increase by +0.5-2.5kg OR +1-2 reps  
+**Week 5-6:** If fatigued, deload 10%, then increase again  
+**Week 7+:** Repeat cycle for continuous growth
+
+### KEY METRICS TO TRACK
+- **Weight (kg)** - for heavy compounds
+- **Reps** - for all exercises
+- **RPE (1-10)** - how hard each set felt
+- **RIR** - Reps in Reserve (target 1-2)
+
+### TROUBLESHOOTING
+**No progress for 2+ weeks?**
+- Check: Sleep (7-9 hrs), Nutrition (+300 cal), Form, Recovery
+- Consider: Deload week, rest day extra, food quality
+
+**Feeling very fatigued?**
+- Add extra rest day, reduce cardio to 2x/week
+- Increase calories by 200-300
+- Ensure 8+ hours sleep
+
+---
+
+**Last Updated:** November 30, 2025  
+**Best Used With:** MyFitnessPal (food tracking) + Google Sheets app (mobile access)
